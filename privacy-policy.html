@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy | SHOPER</title>
+  <meta name="description" content="Privacy Policy for the SHOPER browser extension" />
+  <style>
+    :root{
+      --bg: #0b0f19;
+      --card: #ffffff;
+      --ink: #111827;
+      --muted: #6b7280;
+      --accent: #0ea5e9;
+      --ring: rgba(14,165,233,.25);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0}
+    body{
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      color: var(--ink);
+      background: linear-gradient(180deg, var(--bg), #101726 40%, #0b0f19 100%);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .wrap{
+      max-width: 900px;
+      margin: min(8vh,6rem) auto;
+      padding: 0 16px;
+    }
+    .card{
+      background: var(--card);
+      border-radius: 18px;
+      box-shadow: 0 10px 30px rgba(2,6,23,.15);
+      overflow: hidden;
+      border: 1px solid rgba(2,6,23,.08);
+    }
+    header{
+      padding: 28px 28px 16px;
+      border-bottom: 1px solid rgba(2,6,23,.06);
+      background: linear-gradient(180deg, #ffffff, #fbfdff);
+    }
+    header h1{
+      margin: 0 0 6px;
+      font-size: clamp(22px, 3.5vw, 32px);
+      letter-spacing: .2px;
+    }
+    header .meta{
+      color: var(--muted);
+      font-size: 14px;
+    }
+    main{ padding: 20px 24px 28px; }
+    section{ margin: 20px 0 18px; }
+    h2{
+      font-size: clamp(18px, 2.5vw, 20px);
+      margin: 0 0 8px;
+    }
+    p{ line-height: 1.6; margin: 10px 0; }
+    ul{ margin: 8px 0 8px 22px; }
+    li{ margin: 6px 0; }
+    .callout{
+      border-left: 4px solid var(--accent);
+      background: rgba(14,165,233,.06);
+      padding: 10px 12px;
+      border-radius: 10px;
+      color: #0b3c4f;
+    }
+    a{ color: var(--accent); text-decoration: none; }
+    a:focus, a:hover{ text-decoration: underline; }
+    footer{
+      padding: 18px 24px 24px;
+      border-top: 1px solid rgba(2,6,23,.06);
+      color: var(--muted);
+      font-size: 14px;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .badge{
+      display:inline-flex;align-items:center;gap:8px;
+      padding:6px 10px;border-radius:999px;border:1px solid rgba(2,6,23,.08);
+      background:#fff;color:#0b3c4f;font-size:12px;
+    }
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card" role="document" aria-labelledby="pp-title">
+      <header>
+        <div class="badge" aria-hidden="true">SHOPER • Privacy</div>
+        <h1 id="pp-title">Privacy Policy for SHOPER</h1>
+        <p class="meta">Effective Date: <time datetime="2025-08-27">August 27, 2025</time></p>
+        <p class="meta">Thank you for using SHOPER ("the Extension"). We are committed to protecting your privacy. This Privacy Policy explains the types of information we collect and how we use, share, and safeguard it.</p>
+      </header>
+
+      <main>
+        <section id="info-we-collect">
+          <h2>1. Information We Collect</h2>
+          <p>To provide the core functionality of the Extension, we only collect the following information:</p>
+          <ul>
+            <li><strong>Account Information:</strong> When you register for a trial account or log in, we collect your email address and password. Your password is securely stored in an encrypted format.</li>
+            <li><strong>License Information:</strong> When you activate a premium license, we maintain a record of that activation linked to your account.</li>
+          </ul>
+        </section>
+
+        <section id="how-we-use">
+          <h2>2. How We Use Your Information</h2>
+          <p>The information we collect is used exclusively for the following purposes:</p>
+          <ul>
+            <li><strong>User Authentication:</strong> To verify your identity during login and secure your account.</li>
+            <li><strong>License Management:</strong> To manage your subscription status, whether trial or premium license.</li>
+            <li><strong>Essential Communications:</strong> We may use your email address to send important account-related updates, such as payment confirmations, trial expiration reminders, or critical service updates.</li>
+          </ul>
+        </section>
+
+        <section id="not-collected">
+          <h2>3. Information We Do <em>Not</em> Collect</h2>
+          <p>To maximize your privacy, we explicitly do not collect, store, or track the following:</p>
+          <ul>
+            <li>Your browsing history on Shopee or any other websites.</li>
+            <li>Products you view, search, or analyze.</li>
+            <li>Personal information from your Shopee account.</li>
+            <li>Any data you input into the extension’s filters.</li>
+          </ul>
+          <p class="callout" role="note">All research data you perform remains within your browser and is never transmitted to our servers.</p>
+        </section>
+
+        <section id="sharing">
+          <h2>4. Information Sharing</h2>
+          <p>We will never share, sell, or rent your personal information to any third parties.</p>
+          <p>Your information is securely stored using services provided by <strong>Supabase, Inc.</strong>, our backend infrastructure provider. Supabase adheres to strict security and data privacy standards.</p>
+        </section>
+
+        <section id="security">
+          <h2>5. Data Security</h2>
+          <p>We take reasonable measures to protect your information. All communication between the Extension and our servers is encrypted using SSL/TLS. We rely on industry-standard security practices provided by Supabase to safeguard your data from unauthorized access.</p>
+        </section>
+
+        <section id="changes">
+          <h2>6. Changes to This Privacy Policy</h2>
+          <p>We may update this Privacy Policy from time to time. If significant changes are made, we will notify you via email or through a notice within the Extension.</p>
+        </section>
+
+        <section id="contact">
+          <h2>7. Contact Us</h2>
+          <p>If you have any questions regarding this Privacy Policy, please contact us at: <a href="mailto:egi.santika27@gmail.com">egi.santika27@gmail.com</a></p>
+        </section>
+      </main>
+
+      <footer>
+        <div>© <span id="year"></span> SHOPER. All rights reserved.</div>
+        <div>Document version: <code>1.0</code></div>
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    // Set current year automatically
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
